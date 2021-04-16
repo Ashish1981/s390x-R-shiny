@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -c -e
 # Ensure that assigned uid has entry in /etc/passwd.
 
 if [ `id -u` -ge 10000 ]; then
